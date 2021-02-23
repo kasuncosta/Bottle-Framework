@@ -15,6 +15,6 @@ def index():
     output = '<b>It Works!</b>'
     return output
 
-run(host='localhost', port='8080', debug='True', reloader='True')
+run(host='155.138.227.6', port='80', debug='True', reloader='True')
 #reloader will allow you to edit the index.tpl page
 # without refreshing server from git bash
